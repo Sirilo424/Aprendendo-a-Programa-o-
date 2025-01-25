@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto e Imagem Lado a Lado</title>
+    <style>
+        body {
+            background-color: #af40ff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .links {
+            padding: 3px;
+            text-align: center;
+        }
+
+        .link {
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 10px;
+            
+                    }
+        
+        .link:hover {
+            background: blue;
+            padding: 8px;
+            border-radius: 3.5px;
+            
+             }
+       
+
+        .Sobre {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 20px;
+        }
+
+        .Sobre img {
+            height: 190px;
+            width: 380px;
+            margin-bottom: 10px;
+            align-self: center;
+        }
+
+        .Texto {
+            display: block
+            font-size: 16px;
+            line-height: 1.5;
+            color: white;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div class="links">
+        <a href="Home.html" class="link">Home</a>
+        <a href="About.html" class="link">About</a>
+        <a href="Contactos.html" class="link">Contacts</a>
+    </div>
+    <hr>
+    <div class="Sobre">
+        <img src="Fotos/Programação.jpg" alt="Imagem sobre programação">
+        <p class="Texto">
+            A programação web com HTML e CSS é a base para o desenvolvimento de sites e aplicações visuais. 
+            O HTML (HyperText Markup Language) é utilizado para estruturar o conteúdo, criando elementos como 
+            cabeçalhos, parágrafos, links, imagens e tabelas. Já o CSS (Cascading Style Sheets) é responsável 
+            pela estilização, permitindo o controle sobre cores, fontes, layouts e a responsividade. 
+            Juntos, eles formam o alicerce da web moderna, possibilitando a criação de interfaces atraentes 
+            e funcionais para os usuários. Ao aprender HTML e CSS, é possível criar páginas incríveis e 
+            personalizadas, melhorando a experiência de navegação para todos. Além disso, o uso de boas práticas, 
+            como layouts responsivos e otimizações, é essencial para garantir que as páginas sejam acessíveis 
+            e rápidas em qualquer dispositivo.
+        </p>
+    </div>
+</body>
+</html>
